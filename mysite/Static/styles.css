@@ -1,0 +1,22 @@
+h1{color: rgb(68, 145, 239);text-align: center;font-family: Georgia, 'Times New Roman', Times, serif;}
+h2{font-family: Georgia, 'Times New Roman', Times, serif;}
+#bigger{font-size: 20px;}
+body {
+    background-image: url('https://images.hdqwalls.com/wallpapers/lava-abstract-formation-8k-oc.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.cent{background-color: rgb( 255, 255, 255, 0.1);border:5px solid black;margin: 30px;border-radius: 5px;
+    width: 70vw;
+    margin: 0 auto;
+}
+
+.container-center-text{text-align: center;}
+.upload-button{background-color:rgb(61, 134, 251);transition:all ease 0.3s;color:white;cursor:pointer;padding: 5px 5px;margin:5px;border-radius: 5px;}
+.upload-button:hover{background-color: #509950;}
+.delete-button{background-color:rgb(61, 134, 251);transition:all ease 0.3s; color:white;cursor:pointer;padding: 5px 5px;margin:5px;border-radius: 5px;}
+.delete-button:hover{background-color: rgb(219,68,55);}
+.delete-button:active{scale:0.9;}
+.upload-button:active{scale:0.9;}

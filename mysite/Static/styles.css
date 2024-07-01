@@ -1,16 +1,43 @@
-h1{color: rgb(68, 145, 239);text-align: center;font-family: Georgia, 'Times New Roman', Times, serif;}
-h2{font-family: Georgia, 'Times New Roman', Times, serif;}
+h1{color: rgb(68, 145, 239);text-align: center;font-family:corbel,Georgia, 'Times New Roman', Times, serif;}
+h2{font-family:corbel, Georgia, 'Times New Roman', Times, serif;
+    margin-left: 20px;
+}
 #bigger{font-size: 20px;}
 body {
-    background-image: url('https://images.hdqwalls.com/wallpapers/lava-abstract-formation-8k-oc.jpg');
+    /*background-image: url('mysite/image_web.jpg');*/
+    background-image: url('https://images.hdqwalls.com/wallpapers/movement-colors-abstract-8k-wa.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    font-family: corbel;
+}
+a{
+    color: #c7fffa;
+    font-family: corbel;
+}
+.cent{
+    /*background-color: rgb(253, 252, 252);*/
+    /*border:5px solid black;*/
+    /*margin: 30px;*/
+    border-radius: 11px;
+    background-color: rgb( 255, 255, 255, 0.1);
+    width: 55vw;
+    margin: 25px auto;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.cent{background-color: rgb( 255, 255, 255, 0.1);border:5px solid black;margin: 30px;border-radius: 5px;
-    width: 70vw;
-    margin: 0 auto;
+#file-list li{
+    list-style-type: none;
+    /*border: 1px solid black;*/
+    border-radius: 11px;
+    margin: 10px 11px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+}
+#file-list {
+    padding: 5px;
 }
 
 .container-center-text{text-align: center;}
